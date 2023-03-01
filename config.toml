@@ -1,14 +1,14 @@
-# baseURL = "http://localhost:1313/subdir"
-baseURL = "https://xtclalala.github.com/"
-title = "Puppet"
+baseURL = "http://localhost:1313/subdir"
+# baseURL = "https://xtclalala.github.com/"
+title = "Y1T"
 
 theme = "puppet"
 themesDir = "./themes"
 
 copyright = ""
 paginate = 3
-languageCode = "en"
-defaultContentLanguage = "en"
+languageCode = "zh-CN"
+defaultContentLanguage = "zh-CN"
 
 hasCJKLanguage = true
 enableInlineShortcodes = true
@@ -52,11 +52,11 @@ identifier = "archive"
 name = "Archive"
 url = "/archive/"
 weight = 10
-[[menu.main]]
-identifier = "guide"
-name = "Guide"
-url = "/series/themes-guide/"
-weight = 20
+# [[menu.main]]
+# identifier = "guide"
+# name = "Guide"
+# url = "/series/themes-guide/"
+# weight = 20
 [[menu.main]]
 identifier = "about"
 name = "About"
@@ -65,16 +65,16 @@ weight = 50
 [[menu.main]]
 identifier = "github"
 name = "Github"
-url = "https://github.com/roninro/hugo-theme-puppet/"
+url = "https://github.com/xtclalala/"
 weight = 100
 
 
 [params]
-author = "Puppet"
-description = "A simple and clean theme for Hugo"
+author = "Y1T"
+description = "祥子本祥"
 keywords = "blog,developer,personal"
-img_home = "img/home-bg.jpg"
-img_404 = "img/404-bg.jpg"
+img_home = "img/home-win11.jpg"
+img_404 = "img/404-bg.png"
 
 useFaviconGenerator = true
 
@@ -85,17 +85,12 @@ custom_css = [] # ["css/custom.css"]  Add your file to assets folder  [assets/cs
 enable = true
 gravatarEmail = ""
 # Overwritten by your gravatar image if `gravatarEmail` is filled
-avatar = "img/home-bg.jpg"
-bio = "a personal website"
+avatar = "img/home-win11.jpg"
+bio = "个人链接"
 
 [params.social]
-twitter = "johndoe"
-facebook = "johndoe"
-zhihu = "johndoe"
-weibo = "johndoe"
-github = "johndoe"
-gitlab = "johndoe"
-linkedin = "johndoe"
+twitter = "YLKJocker"
+github = "xtclalala"
 rss = true
 [params.social.mastodon]
 weight = 56
@@ -104,21 +99,21 @@ format = "https://mastodon.social/%v"
 id = "johndoe"
 url = ""
 
-[[params.friends]]
-name = "John Doe"
-url = "https://gohugo.io"
+# [[params.friends]]
+# name = "John Doe"
+# url = "https://gohugo.io"
 
-[[params.friends]]
-name = "John Doe"
-url = "https://gohugo.io"
+# [[params.friends]]
+# name = "John Doe"
+# url = "https://gohugo.io"
 
 # See https://giscus.app/
 [params.giscus]
 enable = true
-repo = "roninro/hugo-theme-puppet"
-repo_id = "R_kgDOHuvyhw"
+repo = "xtclalala/xtclalala.github.io"
+repo_id = "R_kgDOJDy3Hg"
 category = "General"
-category_id = "DIC_kwDOHuvyh84CQjDo"
+category_id = "DIC_kwDOJDy3Hs4CUkbW"
 input_position = "top"
 theme = "light_tritanopia"
-lang = "en"
+lang = "zh-CN"
