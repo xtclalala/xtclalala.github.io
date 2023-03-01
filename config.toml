@@ -7,8 +7,8 @@ themesDir = "./themes"
 
 copyright = ""
 paginate = 3
-languageCode = "zh-CN"
-defaultContentLanguage = "zh-CN"
+languageCode = "en"
+defaultContentLanguage = "en"
 
 hasCJKLanguage = true
 enableInlineShortcodes = true
