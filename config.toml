@@ -44,12 +44,12 @@ unsafe = true
 [menu]
 [[menu.main]]
 identifier = "home"
-name = "Home"
+name = "主页"
 url = "/"
 weight = -100
 [[menu.main]]
 identifier = "archive"
-name = "Archive"
+name = "归档"
 url = "/archive/"
 weight = 10
 # [[menu.main]]
@@ -59,7 +59,7 @@ weight = 10
 # weight = 20
 [[menu.main]]
 identifier = "about"
-name = "About"
+name = "关于"
 url = "/about/"
 weight = 50
 [[menu.main]]
@@ -92,12 +92,12 @@ bio = "个人链接"
 twitter = "YLKJocker"
 github = "xtclalala"
 rss = true
-[params.social.mastodon]
-weight = 56
-icon = "fab fa-mastodon"
-format = "https://mastodon.social/%v"
-id = "johndoe"
-url = ""
+# [params.social.mastodon]
+# weight = 56
+# icon = "fab fa-mastodon"
+# format = "https://mastodon.social/%v"
+# id = "johndoe"
+# url = ""
 
 # [[params.friends]]
 # name = "John Doe"
