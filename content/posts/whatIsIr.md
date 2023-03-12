@@ -1,8 +1,8 @@
 +++
-title: "应急响应-从理论到实战"
-date: 2023-03-02T19:37:25+08:00
+title = "应急响应-从理论到实战"
+date = 2023-03-02T19:37:25+08:00
 
-toc: true
+toc = true
 tags = ["应急响应"]
 categories = ["cyber"]
 series = ["归档"]
