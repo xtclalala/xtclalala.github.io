@@ -1,0 +1,127 @@
+baseURL = "http://localhost:1313"
+# baseURL = "https://xtclalala.github.com/"
+title = "Y1T"
+
+theme = "LoveIt"
+themesDir = "./themes"
+
+languageCode = "zh-CN"
+languageName = "简体中文"
+# 是否包含中日韩文字
+hasCJKLanguage = true
+
+# 作者配置
+[author]
+  name = "y1t"
+  email = ""
+  link = ""
+
+copyright = ""
+paginate = 3
+
+enableInlineShortcodes = true
+enableEmoji = true
+# prevent build failures when using Hugo's Instagram shortcode due to deprecated Instagram API.
+# See https://github.com/gohugoio/hugo/issues/7228#issuecomment-714490456
+ignoreErrors = ["error-remote-getjson"]
+
+disqusShortname = ""
+googleAnalytics = ""
+
+[outputs]
+home = ["HTML", "JSON", "RSS"]
+
+# prevent build failures when using Hugo's template _internal/opengraph.html 
+[taxonomies]
+category = "categories"
+tag = "tags"
+series = "series"
+
+[markup]
+[markup.highlight]
+noClasses = false
+# codeFences = true
+# guessSyntax = true
+# lineNos = true
+# lineNumbersInTable = false
+# style = "dracula"
+
+[markup.goldmark.renderer]
+unsafe = true
+
+[menu]
+[[menu.main]]
+identifier = "home"
+name = "主页"
+url = "/"
+weight = 1
+[[menu.main]]
+identifier = "archive"
+name = "归档"
+url = "/archive/"
+weight = 2
+# [[menu.main]]
+# identifier = "guide"
+# name = "Guide"
+# url = "/series/themes-guide/"
+# weight = 20
+[[menu.main]]
+identifier = "about"
+name = "关于"
+url = "/about/"
+weight = 3
+# [[menu.main]]
+# identifier = "github"
+# name = "Github"
+# url = "https://github.com/xtclalala/"
+# weight = 100
+
+
+[params]
+author = "Y1T"
+description = "祥子本祥"
+keywords = "blog,developer,personal"
+img_home = "img/home-win11.jpg"
+img_404 = "img/404-bg.png"
+
+useFaviconGenerator = true
+
+custom_js = []
+custom_css = [] # ["css/custom.css"]  Add your file to assets folder  [assets/css/custom.css]
+
+[params.sidebar]
+enable = true
+gravatarEmail = ""
+# Overwritten by your gravatar image if `gravatarEmail` is filled
+avatar = "img/home-win11.jpg"
+bio = "个人链接"
+
+[params.social]
+twitter = "YLKJocker"
+github = "xtclalala"
+rss = true
+# [params.social.mastodon]
+# weight = 56
+# icon = "fab fa-mastodon"
+# format = "https://mastodon.social/%v"
+# id = "johndoe"
+# url = ""
+
+# [[params.friends]]
+# name = "John Doe"
+# url = "https://gohugo.io"
+
+# [[params.friends]]
+# name = "John Doe"
+# url = "https://gohugo.io"
+
+# See https://giscus.app/
+# [params.giscus]
+# enable = true
+# repo = "xtclalala/xtclalala.github.io"
+# repo_id = "R_kgDOJDy3Hg"
+# category = "General"
+# category_id = "DIC_kwDOJDy3Hs4CUkbW"
+# input_position = "top"
+# theme = "light_tritanopia"
+# lang = "zh-CN"
