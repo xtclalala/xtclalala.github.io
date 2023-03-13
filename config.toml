@@ -2,7 +2,7 @@ baseURL = "https://xtclalala.github.com/"
 
 # theme
 # 主题
-theme = "Loveit"
+theme = "LoveIt"
 # themes directory
 # 主题目录
 themesDir = "./themes"
