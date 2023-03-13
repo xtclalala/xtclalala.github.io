@@ -1,6 +1,7 @@
 +++
 title = "Puppet - Getting Started"
 date = 2022-08-09T15:38:30+08:00
+draft = true
 header_img = ""
 toc = true
 tags = ["documentation", "guide"]
