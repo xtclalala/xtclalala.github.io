@@ -9,7 +9,7 @@ themesDir = "./themes"
 
 # website title
 # 网站标题
-title = "LoveIt"
+title = "Y1t"
 
 # determines default content language ["en", "zh-cn", "fr", "pl", ...]
 # 设置默认的语言 ["en", "zh-cn", "fr", "pl", ...]
@@ -109,7 +109,7 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
   title = "Y1t's Blog"
   # website description for RSS, SEO, Open Graph and Twitter Cards
   # 网站描述, 用于 RSS, SEO, Open Graph 和 Twitter Cards
-  description = "Hugo theme - LoveIt"
+  description = "Y1t can code and paly fps and hack and happy"
   # website images for Open Graph and Twitter Cards
   # 网站图片, 用于 Open Graph 和 Twitter Cards
   images = ["/logo.png"]
