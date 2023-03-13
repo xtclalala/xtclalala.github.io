@@ -242,9 +242,9 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
     # 是否在搜索索引中使用基于 baseURL 的绝对路径
     absoluteURL = false
     [params.search.algolia]
-      index = ""
-      appID = ""
-      searchKey = ""
+      index = "blog"
+      appID = "HLEUQWTIBX"
+      searchKey = "ea662cdfd3c53e12d3c9cffc677a2efd"
 
   # Home page config
   # 主页信息设置
