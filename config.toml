@@ -608,8 +608,8 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
       # Publisher info
       # 出版者信息
       [params.page.seo.publisher]
-        name = "xxxx"
-        logoUrl = "/images/avatar.png"
+        name = "Y1t"
+        logoUrl = "/images/avatar.jpg"
 
   # TypeIt config
   # TypeIt 配置
@@ -631,10 +631,10 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
   # 网站验证代码，用于 Google/Bing/Yandex/Pinterest/Baidu
   [params.verification]
     google = "QYY7IGGPZUCH4kf_bEtid_ra3cT5vyqvsrHQbfmy3B0"
-    bing = "00cfffd205f2fc13"
+    bing = "26F59996985EF9BE0E37540D53B62146"
     yandex = "00cfffd205f2fc13"
     pinterest = ""
-    baidu = "codeva-xyXHE9UoIj"
+    baidu = "sb,baidu,can't create seo"
 
   # Site SEO config
   # 网站 SEO 配置
