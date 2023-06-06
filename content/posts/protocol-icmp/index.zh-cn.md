@@ -9,6 +9,11 @@ keywords:
 description : "Icmp协议的报文格式，可以做什么"
 date: 2023-03-14T15:30:58+08:00
 draft: false
+
+toc: true
+tags: ["protocol"]
+categories: ["network"]
+series: ["归档"]
 ---
 
 # 什么是ICMP？
