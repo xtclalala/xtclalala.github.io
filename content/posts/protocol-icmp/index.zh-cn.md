@@ -8,7 +8,7 @@ keywords:
 - ping
 description : "Icmp协议的报文格式，可以做什么"
 date: 2023-03-14T15:30:58+08:00
-draft: true
+draft: false
 ---
 
 # 什么是ICMP？
